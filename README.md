@@ -6,7 +6,7 @@ Data Encoding (Cardinal, one hot encoding): data_preparation_examples - ln[6]<br
 Missing data management: data_preparation_examples - ln[14], ln[15]<br>
 <br>
 
-## Sentiment analysis with Recurring Neural Networks, Long Short Term Mem.
+## Sentiment analysis with Recurring Neural Networks, Long Short Term Mem
 Sentiment Analysis with LSTM (RNN): Sentiment_RNN.ipynb<br>
 <br>
 
