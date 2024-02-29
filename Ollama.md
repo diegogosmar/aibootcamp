@@ -51,3 +51,5 @@ curl http://localhost:11434/api/generate -d "{<br>
   \"stream\": false<br>
 }"<br>
 <br>
+More examples with Postman
+<br>
