@@ -44,7 +44,8 @@ curl http://localhost:11434/api/generate -d '{<br>
   "prompt": "What’s the latest book by Dan Brown?"<br>
 }’<br>
 <br>
-NO STREAM:curl http://localhost:11434/api/generate -d "{<br>
+NO STREAM<br>
+curl http://localhost:11434/api/generate -d "{<br>
   \"model\": \"smartlibrary\",<br>
   \"prompt\": \"What is the latest book by Dan Brown?\",<br>
   \"stream\": false<br>
