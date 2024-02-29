@@ -47,7 +47,7 @@ curl http://localhost:11434/api/generate -d '{<br>
 NO STREAM<br>
 curl http://localhost:11434/api/generate -d "{<br>
   \"model\": \"smartlibrary\",<br>
-  \"prompt\": \"Who wrote Harry Potter\",<br>
+  \"prompt\": \"Who wrote Harry Potter?\",<br>
   \"stream\": false<br>
 }"<br>
 <br>
