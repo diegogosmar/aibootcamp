@@ -1,7 +1,7 @@
 # Cheshire Cat hands-on
 ![Image Alt text](/images/cat.jpg)
 
-##setup and Launch (local)
+## setup and Launch (local)
 
 1.Install and launch Docker on your machine<br>
 
@@ -124,5 +124,5 @@ Open the chat GUI and try the following user queries:<br>
 How much for history books?<br>
 Where can I get a good pizza in Chicago?<br>
 <br>
-##stopping the Cat
+## stopping the Cat
 docker compose down
