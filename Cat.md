@@ -3,7 +3,7 @@
 
 ##setup and Launch (local)
 
-1. Install and launch Docker on your machine<br>
+1.Install and launch Docker on your machine<br>
 
 2.1 Launching the cat (fast way):<br>
 docker run --rm -it -p 1865:80 ghcr.io/cheshire-cat-ai/core:latest<br>
