@@ -51,3 +51,27 @@ Step 3: try a RAG with specific user query, i.e.:<br>
 What’s the shipment address inside the order ACME-2024-005?<br>
 Upload the ACME-2024-005 pdf order and retry the user query<br>
 Memory: WIPE to reset the memory to remove the document from the Declarative mem<br>
+<br>
+Step 3: create your plugin and install it<br>
+cd core/cat/plugins/<br>
+create the new plugin folder, i.e. poetic_book_seller<br>
+You need two files in your new plugin folder:<br>
+<br>
+├── core<br>
+│   ├── cat<br>
+│   │   ├── plugins<br>
+|   |   |   ├── poetic_book_seller<br>
+|   |   |   |   ├ poetic_book_seller.py<br>
+|   |   |   |   ├ plugin.json<br>
+<br>
+The plugin.json file contains plugin's title and description, and is useful in the Admin Portal to recognize the plugin and activate/deactivate it.<br>
+<br>
+plugin.json example:<br>
+<br>
+
+{<br>
+    "name": "Poetic Book Seller",<br>
+    "description": "Description of poetic_book_seller"<br>
+}<br>
+The poetic_sock_seller.py file will contain Tools and Hooks source code and can be left completely empty for this step.<br>
+<br>
