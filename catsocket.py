@@ -1,3 +1,5 @@
+# Cat API Websocket, Diego gosmar
+
 import sys
 import cheshire_cat_api as ccat
 import time
@@ -25,7 +27,7 @@ def on_open():
     print("Connection opened!")
 
 def on_message(message: str):
-    # This is triggered when a new message arrives 
+    # This is triggered when a new message arrives
     # and grabs the message
     print(message)
 
@@ -59,7 +61,7 @@ cat_client = ccat.CatClient(
 cat_client.connect_ws()
 
 while not cat_client.is_ws_connected:
-    # A better handling is strongly advised to avoid an infinite loop 
+    # A better handling is strongly advised to avoid an infinite loop
     time.sleep(1)
 
 # Check if a message argument is provided

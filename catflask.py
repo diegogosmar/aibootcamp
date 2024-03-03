@@ -1,3 +1,5 @@
+# Cat API Websocket and REST, Diego gosmar
+
 from flask import Flask, request, jsonify
 import threading
 import cheshire_cat_api as ccat
@@ -59,7 +61,7 @@ def send_message():
 
     if api_key != EXPECTED_API_KEY:
         return jsonify({"error": "Invalid or missing API Key"}), 401
-    
+
     data = request.json
     message_to_send = data.get('message', 'Hello Cat!')
 
@@ -101,4 +103,3 @@ def send_message():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
