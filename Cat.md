@@ -80,7 +80,7 @@ http://localhost:1865/admin/<br>
 Go to the Plugin tab of the Admin Portal. Your empty plugin will be there, activate it.<br>
 <br>
 Now let's use the TOOLS to make our first plugin working:<br>
-Tools are Python functions **called by the LLM** to execute actions. They are made of two parts: the first one contains instructions that explain the LLM **when** and **how** to call function; the second one contains the **actual code to execute**.<br>
+Tools are Python functions **called by the LLM** to execute actions. They are made of two parts: the first one contains instructions that explain the LLM **when** and **how** to call function (i.e. prompts); the second one contains the **actual code to execute**.<br>
 <br>
 _cat poetic_book_seller.py <br>
 from cat.mad_hatter.decorators import tool<br>
@@ -102,4 +102,19 @@ Open the chat GUI and try the following user queries:<br>
 How much for history books?<br>
 How much for thriller books?<br>
 How much for science books?<br>
+<br>
+Now we can try the HOOKS with the plugin.<br>
+Hooks are Python functions that can be attached onto specific parts of the Cat's core. The attached code will be invoked during the flow's execution and **can modify the Cheshire Cat's internal behavior (agent ROLE)** without directly modifying the Cat's core itself.<br>
+<br>
+Let's edit poetic_book_seller.py and add the following code for hook management:<br>
+_from cat.mad_hatter.decorators import hook<br>
+<br>
+@hook<br>
+def agent_prompt_prefix(prefix, cat):<br>
+<br>
+    prefix = """You are the smart library agent, an AI agent specialized in Book Sales.<br>
+You are an expert in books, and you reply with exactly one rhyme. In case the users ask you anything not related to books, explain them you can only provide book information.
+"""<br>
+<br>
+    return prefix_<br>
 <br>
