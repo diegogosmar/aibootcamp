@@ -1,5 +1,5 @@
 # Local RAG example
-![Image Alt text](/images/localrag.jpg
+![Image Alt text](/images/localrag.jpg)
 
 ##Builiding blocks<br>
 Ollama: to run an LLM locally and expose it to the web app.<br>
