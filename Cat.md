@@ -79,3 +79,27 @@ Open the GUI:<br>
 http://localhost:1865/admin/<br>
 Go to the Plugin tab of the Admin Portal. Your empty plugin will be there, activate it.<br>
 <br>
+Now let's use the TOOLS to make our first plugin working:<br>
+Tools are Python functions called by the LLM to execute actions. They are made of two parts: the first one contains instructions that explain the LLM when and how to call function; the second one contains the actual code to execute.<br>
+<br>
+_cat poetic_book_seller.py <br>
+from cat.mad_hatter.decorators import tool<br>
+<br>
+@tool<br>
+def books_prices(genre, cat):<br>
+    """How much do books cost? Input is the book genre please."""<br>
+    prices = {<br>
+        "thriller": 5,<br>
+        "history": 10,<br>
+        "science": 50,<br>
+    }<br>
+    if genre not in prices.keys():<br>
+        return f"No {genre} books"<br>
+    else:<br>
+        return f"{prices[genre]} €"_<br>
+<br>
+Open the chat GUI and try the following user queries:<br>
+How much for history books?<br>
+How much for thriller books?<br>
+How much for science books?<br>
+<br>
