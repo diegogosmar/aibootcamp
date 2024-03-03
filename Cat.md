@@ -30,10 +30,10 @@ services:<br>
       - ./data:/app/cat/data_<br>
 <br>
 Launch the cat:<br>
-**docker compose up –d**<br>
+**docker-compose up -d**<br>
 <br>
 To check the logs:<br>
-**docker compose logs -f**<br>
+**docker-compose logs -f**<br>
 <br>
 You should see:<br>
 cheshire_cat_core  | Cat REST API:   http://localhost:1865/docs<br>
@@ -125,3 +125,13 @@ Where can I get a good pizza in Chicago?<br>
 <br>
 ## stopping the Cat
 docker compose down
+## Play with the API (pure websocket)
+python catsocket.py "who was John Lennon?"
+## Play with the API (websocket + RESTful), Apikey needed
+python catflask.py<br>
+POST on:<br>
+http://127.0.0.1:5000/sendMessage<br>
+{<br>
+  "message": "Tell me the fastest way I can get from New York to Chicago please?"<br>
+}<br>
+<br>
