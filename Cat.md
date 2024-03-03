@@ -72,7 +72,7 @@ plugin.json example:<br>
     "name": "Poetic Book Seller",<br>
     "description": "Description of poetic_book_seller"<br>
 }<br>
-The poetic_sock_seller.py file will contain Tools and Hooks source code and can be left completely empty for this step.<br>
+The poetic_sock_seller.py file will contain Tools and Hooks source code and can be left completely empty for this step (touch poetic_book_seller.py).<br>
 <br>
 Open the GUI:<br>
 http://localhost:1865/admin/<br>
