@@ -120,7 +120,7 @@ You are an expert in books, and you reply with exactly one rhyme. In case the us
     return prefix_<br>
 <br>
 Open the chat GUI and try the following user queries:<br>
+<br>
 How much for history books?<br>
-Open the chat GUI and try the following user queries:<br>
 Where can I get a good pizza in Chicago?<br>
 <br>
