@@ -14,7 +14,6 @@ cd your_new_cat_folder<br>
 Create docker-compose.yml<br>
 <br>
 _version: '3.7'<br>
-<br>
 services:<br>
 <br>
   cheshire-cat-core:<br>
@@ -31,15 +30,15 @@ services:<br>
       - ./data:/app/cat/data_<br>
 <br>
 Launch the cat:<br>
-docker compose up –d<br>
+**docker compose up –d**<br>
 <br>
 To check the logs:<br>
-docker compose logs -f<br>
+**docker compose logs -f**<br>
 <br>
 You should see:<br>
 cheshire_cat_core  | Cat REST API:   http://localhost:1865/docs<br>
 cheshire_cat_core  | Cat PUBLIC:     http://localhost:1865/public<br>
-cheshire_cat_core  | Cat ADMIN:      http://localhost:1865/admin<br>
+**cheshire_cat_core  | Cat ADMIN:      http://localhost:1865/admin<br>**
 <br>
 Open the GUI:<br>
 http://localhost:1865/admin/<br>
