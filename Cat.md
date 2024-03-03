@@ -129,6 +129,7 @@ docker compose down
 python catsocket.py "who was John Lennon?"
 ## Play with the API (websocket + RESTful), Apikey needed
 python catflask.py<br>
+<br>
 POST on:<br>
 http://127.0.0.1:5000/sendMessage<br>
 {<br>
