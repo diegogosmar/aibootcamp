@@ -124,3 +124,5 @@ Open the chat GUI and try the following user queries:<br>
 How much for history books?<br>
 Where can I get a good pizza in Chicago?<br>
 <br>
+##stopping the Cat
+docker compose down
