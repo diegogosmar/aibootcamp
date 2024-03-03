@@ -13,7 +13,7 @@ cd your_new_cat_folder<br>
 <br>
 Create docker-compose.yml<br>
 <br>
-version: '3.7'<br>
+_version: '3.7'<br>
 <br>
 services:<br>
 <br>
@@ -28,8 +28,9 @@ services:<br>
     volumes:<br>
       - ./static:/app/cat/static<br>
       - ./plugins:/app/cat/plugins<br>
-      - ./data:/app/cat/data<br>
+      - ./data:/app/cat/data_<br>
 <br>
+Launch the cat:<br>
 docker compose up –d<br>
 <br>
 To check the logs:<br>
