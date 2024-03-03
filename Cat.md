@@ -44,9 +44,10 @@ cheshire_cat_core  | Cat ADMIN:      http://localhost:1865/admin<br>
 Open the GUI:<br>
 http://localhost:1865/admin/<br>
 <br>
-Step 1: open http://localhost:1865/admin and set you LLM in the Settings<br>
-Try a user query:<br>
+Step 1: set you LLM in the Settings<br>
+Step 2: Try a user query:<br>
 Who was Giulio Cesare?<br>
+Step 3: try a RAG with specific user query, i.e.:<br>
 What’s the shipment address inside the order ACME-2024-005?<br>
-Order upload pdf<br>
-Memory: WIPE to reset the memory<br>
+Upload the ACME-2024-005 pdf order and retry the user query<br>
+Memory: WIPE to reset the memory to remove the document from the Declarative mem<br>
