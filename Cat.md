@@ -107,6 +107,7 @@ Now we can try the HOOKS with the plugin.<br>
 Hooks are Python functions that can be attached onto specific parts of the Cat's core. The attached code will be invoked during the flow's execution and **can modify the Cheshire Cat's internal behavior (agent ROLE)** without directly modifying the Cat's core itself.<br>
 <br>
 Let's edit poetic_book_seller.py and add the following code for hook management:<br>
+<br>
 _from cat.mad_hatter.decorators import hook<br>
 <br>
 @hook<br>
@@ -117,4 +118,9 @@ You are an expert in books, and you reply with exactly one rhyme. In case the us
 """<br>
 <br>
     return prefix_<br>
+<br>
+Open the chat GUI and try the following user queries:<br>
+How much for history books?<br>
+Open the chat GUI and try the following user queries:<br>
+Where can I get a good pizza in Chicago?<br>
 <br>
