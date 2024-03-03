@@ -34,7 +34,9 @@ Launch the cat:<br>
 docker compose up –d<br>
 <br>
 To check the logs:<br>
+docker compose logs -f<br>
 <br>
+Open the GUI:<br>
 http://localhost:1865/admin/<br>
 <br>
 You should see:<br>
