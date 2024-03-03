@@ -36,15 +36,14 @@ docker compose up –d<br>
 To check the logs:<br>
 docker compose logs -f<br>
 <br>
-Open the GUI:<br>
-http://localhost:1865/admin/<br>
-<br>
 You should see:<br>
 cheshire_cat_core  | Cat REST API:   http://localhost:1865/docs<br>
 cheshire_cat_core  | Cat PUBLIC:     http://localhost:1865/public<br>
 cheshire_cat_core  | Cat ADMIN:      http://localhost:1865/admin<br>
 <br>
-
+Open the GUI:<br>
+http://localhost:1865/admin/<br>
+<br>
 Step 1: open http://localhost:1865/admin and set you LLM in the Settings<br>
 Try a user query:<br>
 Who was Giulio Cesare?<br>
