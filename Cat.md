@@ -11,7 +11,7 @@ docker run --rm -it -p 1865:80 ghcr.io/cheshire-cat-ai/core:latest<br>
 2.2 Launching the cat (preferable way):<br>
 cd your_new_cat_folder<br>
 <br>
-Create docker-compose.yml<br><br>
+Create docker-compose.yml<br>
 <br>
 version: '3.7'<br>
 <br>
