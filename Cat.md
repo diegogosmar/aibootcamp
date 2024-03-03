@@ -122,9 +122,6 @@ Open the chat GUI and try the following user queries:<br>
 <br>
 How much for history books?<br>
 Where can I get a good pizza in Chicago?<br>
-<br>
-## stopping the Cat
-docker compose down
 ## Play with the API (pure websocket)
 python catsocket.py "who was John Lennon?"
 ## Play with the API (websocket + RESTful), Apikey needed
@@ -135,4 +132,5 @@ http://127.0.0.1:5000/sendMessage<br>
 {<br>
   "message": "Tell me the fastest way I can get from New York to Chicago please?"<br>
 }<br>
-<br>
+## stopping the Cat
+docker-compose down
