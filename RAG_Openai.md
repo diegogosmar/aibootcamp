@@ -8,3 +8,9 @@ See openai_chunks.js for details<br>
 
 ## Chunking example: it reads Document, embeds, chunks and stores the results in a json file (embedding.json)
 See openai_chunks_file.js for details<br>
+
+## Read embeddings.json file and write into the embeddings.ann Annoy vector DB
+python write_to_annoy.py
+
+## Read embeddings.json file and write into the embeddings.array FAISS vector DB
+python write_to_faiss.py
