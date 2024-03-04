@@ -14,3 +14,6 @@ python write_to_annoy.py
 
 ## Read embeddings.json file and write into the embeddings.array FAISS vector DB
 python write_to_faiss.py
+
+## Indexing + metadata (chunk of text) inside embeddings_with_text.json
+node openai_chunks_file_indexing.js
