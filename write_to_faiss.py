@@ -25,3 +25,4 @@ index.add(embeddings_array)
 faiss.write_index(index, "embeddings.index")
 
 print("FAISS index created and saved.")
+print("Number of vectors in the DB:", index.ntotal)

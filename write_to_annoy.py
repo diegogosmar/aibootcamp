@@ -1,4 +1,5 @@
 # Vector DB management, Annoy, Diego Gosmar, 2024
+# Import embeddings.json file and create the embeddings.ann vector DB
 
 import json
 from annoy import AnnoyIndex
@@ -20,3 +21,6 @@ t.build(10)  # The number 10 is a parameter that affects the build speed and ind
 t.save('embeddings.ann')
 
 print("Annoy index created and saved.")
+
+# Print the number of vectors in the DB
+print("Number of vectors in the DB:", t.get_n_items())
