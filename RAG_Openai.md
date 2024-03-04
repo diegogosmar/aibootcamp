@@ -12,7 +12,7 @@ See openai_chunks_file.js for details<br>
 ## Read embeddings.json file and write into the embeddings.ann Annoy vector DB
 python write_to_annoy.py
 
-## Read embeddings.json file and write into the embeddings.array FAISS vector DB
+## Read embeddings.json file and write into the embeddings.index FAISS vector DB
 python write_to_faiss.py
 
 ## Indexing + metadata (chunk of text) inside embeddings_with_text.json

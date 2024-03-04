@@ -1,5 +1,5 @@
 # Vector DB management, Annoy, Diego Gosmar, 2024
-# Import embeddings.json file and create the embeddings.array vector DB + embeddings.index file
+# Import embeddings.json file and create the embeddings.index vector DB
 
 import json
 import numpy as np
