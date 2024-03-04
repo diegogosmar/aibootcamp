@@ -17,3 +17,6 @@ python write_to_faiss.py
 
 ## Indexing + metadata (chunk of text) inside embeddings_with_text.json
 node openai_chunks_file_indexing.js
+
+## Embedding the use query + similarity search, index retrieval and context generation for augmented prompt
+python openai_augment_query.py
