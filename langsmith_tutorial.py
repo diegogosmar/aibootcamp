@@ -1,3 +1,5 @@
+# Langsmith LLM evaluation with Datasets, Diego Gosmar, 2024
+
 import os
 from dotenv import load_dotenv
 from langsmith import Client
