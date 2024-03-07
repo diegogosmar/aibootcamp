@@ -15,13 +15,16 @@ Classification KPI examples (Notebook): Accuracy_Recall_PValues_R2 - ln[1]<br>
 Regression KPI examples (Notebook): Accuracy_Recall_PValues_R2 - ln[10]<br>
 
 ## Local LLM model dry & run
-See Ollama.ms for details<br>
+See Ollama.md for details<br>
 
 ## Local LLM model dry & run advanced with RAG
-See RAF_Local.ms for details<br>
+See RAF_Local.md for details<br>
 
 ## Cheshire Cat hands-on
 See Cat.md for details<br>
 
 ## RAG with OpenAI scripts
 See RAG_Openai.md for details<br>
+
+## Langsmith quick hands on
+See Langsmith.md for details<br>
