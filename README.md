@@ -28,3 +28,6 @@ See RAG_Openai.md for details<br>
 
 ## Langsmith quick hands on
 See Langsmith.md for details<br>
+
+## Langsmith LLM evaluation with labeled imported datasets
+See Langsmith.md for details<br>

@@ -15,3 +15,6 @@ OPENAI_API_KEY="your_openAI_key"<br>
 <br>
 ## Example of Python script with OpenAI + Langsmith monitoring
 See llm_role_context.py for details<br>
+
+## Example of Python script to evaluate LLMs with imported labeled DATASETS
+See langsmith_tutorial.py for details<br>
