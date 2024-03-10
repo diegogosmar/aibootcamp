@@ -14,6 +14,9 @@ Sentiment Analysis with LSTM (RNN): Sentiment_RNN.ipynb<br>
 Classification KPI examples (Notebook): Accuracy_Recall_PValues_R2 - ln[1]<br>
 Regression KPI examples (Notebook): Accuracy_Recall_PValues_R2 - ln[10]<br>
 
+## Supervised Fine tuning of Pre-Trained Model
+See please fine_tuning_colab_GPT2.ipynb
+
 ## Local LLM model dry & run
 See Ollama.md for details<br>
 
