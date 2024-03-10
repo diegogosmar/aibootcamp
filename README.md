@@ -16,6 +16,7 @@ Regression KPI examples (Notebook): Accuracy_Recall_PValues_R2 - ln[10]<br>
 
 ## Supervised Fine tuning of Pre-Trained Model
 See please fine_tuning_colab_GPT2.ipynb
+See please training and testing datasets in datasets folder
 
 ## Local LLM model dry & run
 See Ollama.md for details<br>
